@@ -6,6 +6,9 @@ import com.example.demo.dto.Answer;
 import com.example.demo.dto.Comment;
 import com.example.demo.dto.Entity;
 import com.example.demo.dto.Questions;
+import lombok.Data;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 
@@ -13,7 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MemberController {
 
-    public void addQuestion(Questions question){
+    @PostMapping("/v1/question")
+    public String addQuestion(@RequestBody Questions question){
+        String title = question.getTitle();
+        return "new question inserted " + title;
 
     }
 
