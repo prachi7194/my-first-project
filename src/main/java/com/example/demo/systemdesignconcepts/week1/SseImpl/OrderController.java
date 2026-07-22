@@ -1,4 +1,4 @@
-package com.example.demo.arpitbhayani.week1.SseImpl;
+package com.example.demo.systemdesignconcepts.week1.SseImpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

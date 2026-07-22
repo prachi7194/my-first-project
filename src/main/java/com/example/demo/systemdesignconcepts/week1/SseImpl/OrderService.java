@@ -1,4 +1,4 @@
-package com.example.demo.arpitbhayani.week1.SseImpl;
+package com.example.demo.systemdesignconcepts.week1.SseImpl;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;

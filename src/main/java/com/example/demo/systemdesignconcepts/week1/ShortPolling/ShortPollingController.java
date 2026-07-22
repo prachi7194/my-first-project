@@ -1,4 +1,4 @@
-package com.example.demo.arpitbhayani.week1.ShortPolling;
+package com.example.demo.systemdesignconcepts.week1.ShortPolling;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

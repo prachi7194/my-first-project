@@ -1,4 +1,4 @@
-package com.example.demo.arpitbhayani.week1.LongPolling;
+package com.example.demo.systemdesignconcepts.week1.LongPolling;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
