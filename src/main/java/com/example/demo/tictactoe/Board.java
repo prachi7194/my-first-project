@@ -7,7 +7,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 @Data
-public class Board implements BoardFeatures{
+public class Board implements BoardFeatures {
     Scanner scn = new Scanner(System.in);
 
     private GameBoard board;

@@ -1,4 +1,4 @@
-package com.example.demo.arpitbhayani.week1.LongPolling;
+package com.example.demo.systemdesignconcepts.week1.LongPolling;
 
 import org.springframework.stereotype.Service;
 import org.springframework.web.context.request.async.DeferredResult;

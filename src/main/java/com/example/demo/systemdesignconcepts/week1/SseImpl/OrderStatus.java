@@ -1,4 +1,4 @@
-package com.example.demo.arpitbhayani.week1.SseImpl;
+package com.example.demo.systemdesignconcepts.week1.SseImpl;
 
 public class OrderStatus {
     private String orderId;

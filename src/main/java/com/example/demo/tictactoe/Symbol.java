@@ -1,7 +1,5 @@
 package com.example.demo.tictactoe;
 
-import com.fasterxml.jackson.annotation.JsonValue;
-
 public enum Symbol {
     START('*'),
     ZERO('O'),

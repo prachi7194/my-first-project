@@ -3,7 +3,7 @@ package com.example.demo.tictactoe;
 import lombok.Data;
 
 @Data
-public class Game implements GameFlow{
+public class Game implements GameFlow {
 
     private Board gameBoard;
     Game(Board gameBoard){

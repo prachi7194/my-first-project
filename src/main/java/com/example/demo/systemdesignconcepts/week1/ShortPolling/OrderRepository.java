@@ -1,4 +1,4 @@
-package com.example.demo.arpitbhayani.week1.ShortPolling;
+package com.example.demo.systemdesignconcepts.week1.ShortPolling;
 
 import org.springframework.stereotype.Repository;
 
