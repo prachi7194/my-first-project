@@ -1,8 +1,8 @@
 package com.example.demo.lld.spotify.managers;
 
-import lld.spotify.device.IAudioOutputDevice;
-import lld.spotify.enums.DeviceType;
-import lld.spotify.factories.DeviceFactory;
+import com.example.demo.lld.spotify.device.IAudioOutputDevice;
+import com.example.demo.lld.spotify.enums.DeviceType;
+import com.example.demo.lld.spotify.factories.DeviceFactory;
 
 public class DeviceManager {
     private IAudioOutputDevice currentOutputDevice;

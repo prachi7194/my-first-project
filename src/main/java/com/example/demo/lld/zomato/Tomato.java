@@ -1,12 +1,12 @@
 package com.example.demo.lld.zomato;
 
-import lld.zomato.factories.NowOrderFactory;
-import lld.zomato.factories.OrderFactory;
-import lld.zomato.factories.ScheduleOrderFactory;
-import lld.zomato.managers.OrderManager;
-import lld.zomato.managers.RestuarantManager;
-import lld.zomato.model.*;
-import lld.zomato.strategies.PaymentStrategy;
+import com.example.demo.lld.zomato.factories.NowOrderFactory;
+import com.example.demo.lld.zomato.factories.OrderFactory;
+import com.example.demo.lld.zomato.factories.ScheduleOrderFactory;
+import com.example.demo.lld.zomato.managers.OrderManager;
+import com.example.demo.lld.zomato.managers.RestuarantManager;
+import com.example.demo.lld.zomato.model.*;
+import com.example.demo.lld.zomato.strategies.PaymentStrategy;
 
 import java.util.List;
 

@@ -1,19 +1,18 @@
 package com.example.demo.lld.zomato.model;
 
 
-import java.awt.MenuItem;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Cart {
     private Restuarant r;
-    private List<java.awt.MenuItem> menuItemList = new ArrayList<>();
+    private List<com.example.demo.lld.zomato.model.MenuItem> menuItemList = new ArrayList<>();
 
     public Cart(){
         r = null;
     }
 
-    public void addItems(java.awt.MenuItem menuItem){
+    public void addItems(MenuItem menuItem){
         if(r == null){
             System.out.println("set a restuarant before adding items");
         }
@@ -22,7 +21,7 @@ public class Cart {
 
     public double getTotalCost(){
         double sum = 0;
-        for(java.awt.MenuItem menuItem  :menuItemList){
+        for(MenuItem menuItem  :menuItemList){
             sum = sum + menuItem.getPrice();
         }
         return sum;

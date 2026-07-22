@@ -1,10 +1,10 @@
 package com.example.demo.lld.spotify.managers;
 
-import lld.spotify.enums.PlayStrategyType;
-import lld.spotify.strategies.CustomQueueStrategy;
-import lld.spotify.strategies.IPlayStrategy;
-import lld.spotify.strategies.RandomPlayStrategy;
-import lld.spotify.strategies.SequentialPlayStrategy;
+import com.example.demo.lld.spotify.enums.PlayStrategyType;
+import com.example.demo.lld.spotify.strategies.CustomQueueStrategy;
+import com.example.demo.lld.spotify.strategies.IPlayStrategy;
+import com.example.demo.lld.spotify.strategies.RandomPlayStrategy;
+import com.example.demo.lld.spotify.strategies.SequentialPlayStrategy;
 
 public class StrategyManager {
     private IPlayStrategy iPlayStrategy;

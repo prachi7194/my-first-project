@@ -1,7 +1,7 @@
 package com.example.demo.lld.spotify.managers;
 
-import lld.spotify.models.PlayList;
-import lld.spotify.models.Song;
+import com.example.demo.lld.spotify.models.PlayList;
+import com.example.demo.lld.spotify.models.Song;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,9 +1,9 @@
 package com.example.demo.lld.zomato;
 
-import lld.zomato.model.Order;
-import lld.zomato.model.Restuarant;
-import lld.zomato.model.User;
-import lld.zomato.strategies.UpiPaymentStrategy;
+import com.example.demo.lld.zomato.model.Order;
+import com.example.demo.lld.zomato.model.Restuarant;
+import com.example.demo.lld.zomato.model.User;
+import com.example.demo.lld.zomato.strategies.UpiPaymentStrategy;
 
 public class Main {
     public static void main(String[] args) {

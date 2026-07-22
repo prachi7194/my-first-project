@@ -1,10 +1,12 @@
 package com.example.demo.lld.chess.util;
 
-import lld.chess.models.Board;
-import lld.chess.models.Move;
-import lld.chess.models.Piece;
-import lld.chess.models.Position;
 
+
+
+import com.example.demo.lld.chess.models.Board;
+import com.example.demo.lld.chess.models.Move;
+import com.example.demo.lld.chess.models.Piece;
+import com.example.demo.lld.chess.models.Position;
 
 import java.util.ArrayList;
 import java.util.List;

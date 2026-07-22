@@ -1,11 +1,13 @@
 package com.example.demo.lld.ratelimiter.service;
 
-import lld.ratelimiter.enums.RateLimitType;
-import lld.ratelimiter.enums.UserTier;
-import lld.ratelimiter.factory.RateLimiterFactory;
-import lld.ratelimiter.limiter.RateLimiter;
-import lld.ratelimiter.model.RateLimitConfig;
-import lld.ratelimiter.model.User;
+
+
+import com.example.demo.lld.ratelimiter.enums.RateLimitType;
+import com.example.demo.lld.ratelimiter.enums.UserTier;
+import com.example.demo.lld.ratelimiter.factory.RateLimiterFactory;
+import com.example.demo.lld.ratelimiter.limiter.RateLimiter;
+import com.example.demo.lld.ratelimiter.model.RateLimitConfig;
+import com.example.demo.lld.ratelimiter.model.User;
 
 import java.util.HashMap;
 import java.util.Map;

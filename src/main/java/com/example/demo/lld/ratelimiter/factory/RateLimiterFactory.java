@@ -1,11 +1,12 @@
 package com.example.demo.lld.ratelimiter.factory;
 
-import lld.ratelimiter.enums.RateLimitType;
-import lld.ratelimiter.limiter.FixedWindowRateLimiter;
-import lld.ratelimiter.limiter.RateLimiter;
-import lld.ratelimiter.limiter.SlidingWindowRateLimiter;
-import lld.ratelimiter.limiter.TokenBucketRateLimiter;
-import lld.ratelimiter.model.RateLimitConfig;
+
+import com.example.demo.lld.ratelimiter.enums.RateLimitType;
+import com.example.demo.lld.ratelimiter.limiter.FixedWindowRateLimiter;
+import com.example.demo.lld.ratelimiter.limiter.RateLimiter;
+import com.example.demo.lld.ratelimiter.limiter.SlidingWindowRateLimiter;
+import com.example.demo.lld.ratelimiter.limiter.TokenBucketRateLimiter;
+import com.example.demo.lld.ratelimiter.model.RateLimitConfig;
 
 public class RateLimiterFactory {
     public static RateLimiter createRateLimiter(RateLimitType rateLimitType, RateLimitConfig rateLimitConfig){

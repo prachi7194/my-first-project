@@ -1,7 +1,7 @@
 package com.example.demo.lld.spotify.device;
 
-import lld.spotify.external.BluetoothSpeakerAPI;
-import lld.spotify.models.Song;
+import com.example.demo.lld.spotify.external.BluetoothSpeakerAPI;
+import com.example.demo.lld.spotify.models.Song;
 
 public class BluetoothSpeakerAdapter implements IAudioOutputDevice {
     BluetoothSpeakerAPI bluetoothSpeakerAPI;

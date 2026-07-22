@@ -1,6 +1,7 @@
 package com.example.demo.lld.ratelimiter.model;
 
-import lld.ratelimiter.enums.UserTier;
+
+import com.example.demo.lld.ratelimiter.enums.UserTier;
 
 public class User {
     private String userId;

@@ -1,7 +1,7 @@
 package com.example.demo.lld.spotify.device;
 
-import lld.spotify.external.HeadphonesAPI;
-import lld.spotify.models.Song;
+import com.example.demo.lld.spotify.external.HeadphonesAPI;
+import com.example.demo.lld.spotify.models.Song;
 
 public class HeadphonesAdapter implements IAudioOutputDevice {
     HeadphonesAPI headphonesAPI;

@@ -1,9 +1,9 @@
 package com.example.demo.lld.spotify;
 
-import lld.spotify.enums.DeviceType;
-import lld.spotify.enums.PlayStrategyType;
-import lld.spotify.managers.PlayListManager;
-import lld.spotify.models.Song;
+import com.example.demo.lld.spotify.enums.DeviceType;
+import com.example.demo.lld.spotify.enums.PlayStrategyType;
+import com.example.demo.lld.spotify.managers.PlayListManager;
+import com.example.demo.lld.spotify.models.Song;
 
 import java.util.ArrayList;
 import java.util.List;
