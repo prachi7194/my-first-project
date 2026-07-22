@@ -1,7 +1,7 @@
 package com.example.demo.lld.chess.models;
 
-import lld.chess.enums.Color;
-import lld.chess.util.MovementHelper;
+import com.example.demo.lld.chess.enums.Color;
+import com.example.demo.lld.chess.util.MovementHelper;
 
 import java.util.List;
 

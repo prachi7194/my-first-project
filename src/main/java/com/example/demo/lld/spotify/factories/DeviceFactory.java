@@ -1,13 +1,13 @@
 package com.example.demo.lld.spotify.factories;
 
-import lld.spotify.device.BluetoothSpeakerAdapter;
-import lld.spotify.device.HeadphonesAdapter;
-import lld.spotify.device.IAudioOutputDevice;
-import lld.spotify.device.WiredAdapter;
-import lld.spotify.enums.DeviceType;
-import lld.spotify.external.BluetoothSpeakerAPI;
-import lld.spotify.external.HeadphonesAPI;
-import lld.spotify.external.WiredSpeakerAPI;
+import com.example.demo.lld.spotify.device.BluetoothSpeakerAdapter;
+import com.example.demo.lld.spotify.device.HeadphonesAdapter;
+import com.example.demo.lld.spotify.device.IAudioOutputDevice;
+import com.example.demo.lld.spotify.device.WiredAdapter;
+import com.example.demo.lld.spotify.enums.DeviceType;
+import com.example.demo.lld.spotify.external.BluetoothSpeakerAPI;
+import com.example.demo.lld.spotify.external.HeadphonesAPI;
+import com.example.demo.lld.spotify.external.WiredSpeakerAPI;
 
 public class DeviceFactory {
 

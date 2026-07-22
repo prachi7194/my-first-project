@@ -1,7 +1,8 @@
 package com.example.demo.lld.ratelimiter.limiter;
 
-import lld.ratelimiter.enums.RateLimitType;
-import lld.ratelimiter.model.RateLimitConfig;
+
+import com.example.demo.lld.ratelimiter.enums.RateLimitType;
+import com.example.demo.lld.ratelimiter.model.RateLimitConfig;
 
 import java.util.Queue;
 import java.util.concurrent.ConcurrentHashMap;

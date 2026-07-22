@@ -1,7 +1,7 @@
 package com.example.demo.lld.spotify.strategies;
 
-import lld.spotify.models.PlayList;
-import lld.spotify.models.Song;
+import com.example.demo.lld.spotify.models.PlayList;
+import com.example.demo.lld.spotify.models.Song;
 
 public class SequentialPlayStrategy implements IPlayStrategy {
     private PlayList currentPlayList;

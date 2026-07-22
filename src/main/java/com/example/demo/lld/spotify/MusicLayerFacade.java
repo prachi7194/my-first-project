@@ -1,14 +1,14 @@
 package com.example.demo.lld.spotify;
 
-import lld.spotify.device.IAudioOutputDevice;
-import lld.spotify.enums.DeviceType;
-import lld.spotify.enums.PlayStrategyType;
-import lld.spotify.managers.DeviceManager;
-import lld.spotify.managers.PlayListManager;
-import lld.spotify.managers.StrategyManager;
-import lld.spotify.models.PlayList;
-import lld.spotify.models.Song;
-import lld.spotify.strategies.IPlayStrategy;
+import com.example.demo.lld.spotify.device.IAudioOutputDevice;
+import com.example.demo.lld.spotify.enums.DeviceType;
+import com.example.demo.lld.spotify.enums.PlayStrategyType;
+import com.example.demo.lld.spotify.managers.DeviceManager;
+import com.example.demo.lld.spotify.managers.PlayListManager;
+import com.example.demo.lld.spotify.managers.StrategyManager;
+import com.example.demo.lld.spotify.models.PlayList;
+import com.example.demo.lld.spotify.models.Song;
+import com.example.demo.lld.spotify.strategies.IPlayStrategy;
 
 public class MusicLayerFacade {
     private static MusicLayerFacade instance = null;

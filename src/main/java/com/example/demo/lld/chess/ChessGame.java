@@ -1,8 +1,9 @@
 package com.example.demo.lld.chess;
 
-import lld.chess.enums.Color;
-import lld.chess.enums.GameStatus;
-import lld.chess.models.*;
+
+import com.example.demo.lld.chess.enums.Color;
+import com.example.demo.lld.chess.enums.GameStatus;
+import com.example.demo.lld.chess.models.*;
 
 public class ChessGame {
     private final Board board;

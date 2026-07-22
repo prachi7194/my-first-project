@@ -1,7 +1,7 @@
 package com.example.demo.lld.spotify;
 
-import lld.spotify.device.IAudioOutputDevice;
-import lld.spotify.models.Song;
+import com.example.demo.lld.spotify.device.IAudioOutputDevice;
+import com.example.demo.lld.spotify.models.Song;
 
 public class AudioEngine {
     private Song currentSong;

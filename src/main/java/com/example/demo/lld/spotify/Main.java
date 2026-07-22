@@ -1,6 +1,6 @@
 package com.example.demo.lld.spotify;
 
-import lld.spotify.enums.DeviceType;
+import com.example.demo.lld.spotify.enums.DeviceType;
 
 public class Main {
     public static void main(String[] args) {

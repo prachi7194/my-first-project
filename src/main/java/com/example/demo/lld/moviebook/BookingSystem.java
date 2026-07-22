@@ -1,7 +1,8 @@
 package com.example.demo.lld.moviebook;
 
 
-import lld.moviebook.exceptions.InvalidRequestException;
+
+import com.example.demo.lld.moviebook.exceptions.InvalidRequestException;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

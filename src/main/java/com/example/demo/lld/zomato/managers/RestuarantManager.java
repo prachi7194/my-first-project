@@ -1,6 +1,6 @@
 package com.example.demo.lld.zomato.managers;
 
-import lld.zomato.model.Restuarant;
+import com.example.demo.lld.zomato.model.Restuarant;
 
 import java.util.ArrayList;
 import java.util.List;

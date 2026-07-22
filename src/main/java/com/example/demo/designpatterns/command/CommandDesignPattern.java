@@ -89,7 +89,7 @@ class RemoteController{
     public void pressButton(int idx){
         if(idx >= 0 && idx < numButtons && buttons[idx] != null){
             if(!buttonPressed[idx]){
-                designpatterns.command.ICommand command = buttons[idx];
+                ICommand command = buttons[idx];
                 command.execute();
 
             }else{

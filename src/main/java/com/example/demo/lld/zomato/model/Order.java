@@ -1,6 +1,6 @@
 package com.example.demo.lld.zomato.model;
 
-import lld.zomato.strategies.PaymentStrategy;
+import com.example.demo.lld.zomato.strategies.PaymentStrategy;
 
 import java.util.List;
 
