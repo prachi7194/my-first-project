@@ -1,4 +1,4 @@
-package com.example.demo.designpatterns.tictactoe;
+package com.example.demo.tictactoe;
 
 public enum EventType {
     WIN("win"),
