@@ -1,0 +1,11 @@
+Player Turn
+   ↓
+Validate Move
+   ↓
+If Invalid → Reject with reason
+   ↓
+If Valid → Update Board
+   ↓
+Switch Turn
+   ↓
+Continue Until End
