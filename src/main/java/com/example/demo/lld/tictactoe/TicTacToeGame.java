@@ -1,4 +1,4 @@
-package com.example.demo.tictactoe;
+package com.example.demo.lld.tictactoe;
 
 public class TicTacToeGame {
     public static void main(String[] args) {
